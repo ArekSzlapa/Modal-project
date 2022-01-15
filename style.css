@@ -1,0 +1,95 @@
+.top-page {
+  background-image: url(1.jpg);
+  background-size: 100%;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.modal {
+text-align: center;
+padding-top: 42vh;
+  color: white;
+}
+h2{
+    font-size: 48px;
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+.bottom{
+    height: 20vh;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.mdn-btn{
+    background-color: rgb(2, 119, 197);
+    color: white;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+}
+.mdn-btn:active{
+    background-color: rgb(3, 91, 150);
+}
+.mdn-btn:hover{
+    cursor: pointer;
+}
+.modal-bg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.box{
+    background-color: white;
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.subs{
+    margin-top: 30px;
+    background-color: rgb(2, 119, 197);
+    color: white;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+}
+label{
+    margin-top: 20px;
+}
+h3{
+    font-size: 36px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: inherit;
+    border:none;
+    font-weight: bold;
+    cursor: pointer;
+}
